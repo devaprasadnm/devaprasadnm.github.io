@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Oswald:wght@500&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+  <link rel="icon" href="../images/favicon.ico">
+  <title>Dp's_Projects</title>
+</head>
+
+<body>
+  
+  
+  <!----------Navbar----------->
+
+   <!----------Button_Navbar----------->
+
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list" style="background-color: #A7C4BC;">
+        <li class="navigation__item" style="float: none;"><a href="../index.html" class="navigation__link">
+            <h2>ABOUT_ME</h2>
+          </a></li>
+        <li class="navigation__item" style="float: none;"><a href="resume.html" class="navigation__link">
+            <h2>RESUME</h2>
+          </a></li>
+        <li class="navigation__item" style="float: none;"><a href="projects.html" class="navigation__link">
+            <h2>PROJECTS</h2>
+          </a></li>
+        <li class="navigation__item" style="float: none;"><a href="mailto:devaprasdmohan@gmail.com"
+            class="navigation__link">
+            <h2>CONTACT_ME</h2>
+          </a></li>
+
+      </ul>
+    </nav>
+  </div>
+
+
+ <!----------Horizontal_Navbar----------->
+
+  <div class="navbar">
+    <ul>
+      <li style="float:left"><a href="../index.html" class="Headname">
+          <div class="square"></div>Devaprasad<span style=" font-family:'Noto Sans JP', sans-serif;font-size: 1rem;">
+            / Btech Student</span>
+        </a></li>
+      <li"><a class="horizontalnav" href="mailto:devaprasdmohan@gmail.com">CONTACT</a></li>
+        <li"><a class="horizontalnav" href="projects.html">PROJECT</a></li>
+          <li"><a class="horizontalnav" href="resume.html">RESUME</a></li>
+    </ul>
+  </div>
+
+
+  <!-Landing->
+    <div  class="landing">
+      <div class="main">
+        <div class="squareM"></div>
+        <div class="mainHead">
+          <h1 class="lefth">Projects</h1>
+        </div>
+      </div>
+    </div>
+
+
+ <!--------Container----------->
+
+      <div  data-aos="fade-up" class="down container">
+        <div class="left">
+          <div class="left-container">
+            <h1 class="primary_text">To Do List</h1>
+            <p class="secondary_text">Poject 1</p>
+            <p class="secondary_text" style="color:#777;"> Have created a Basic To-do List using Html and CSS for
+              frontend
+              and used php and mySQL server for backend.
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-container">
+            <div class="composition">
+              <a href="#imagem1"><img src="../images/todo1.png" alt="graphics1"
+                  class="composition__photo composition__photo--p1"></a>
+              <a href="#imagem2"><img src="../images/todo2.png" alt="graphics2"
+                  class="composition__photo composition__photo--p2"></a>
+              <a href="#imagem3"><img src="../images/todo3.png" alt="graphics3"
+                  class="composition__photo composition__photo--p3"></a>
+            </div>
+
+            <!-- Slider -->
+            <div id="slider">
+              <div class="slides">
+                <div class="slider">
+
+
+                  <div class="image"> <a href="#imagem1"><img src="../images/todo1.png"></a></div>
+                </div>
+                <div class="slider">
+
+
+                  <div class="image"><a href="#imagem2"><img src="../images/todo2.png"></a></div>
+                </div>
+                <div class="slider">
+
+
+                  <div class="image"><a href="#imagem2"><img src="../images/todo3.png"></a></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Lightboxes em separado -->
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem1">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/todo1.png" alt="todo1">
+                </div>
+              </div>
+            </div>
+
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem2">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/todo2.png" alt="todo1">
+                </div>
+              </div>
+            </div>
+
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem3">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/todo2.png" alt="todo1">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div  data-aos="fade-up" class="down container">
+        <div class="left">
+          <div class="left-container">
+            <h1 class="primary_text">Dialy Journal</h1>
+            <p class="secondary_text">Poject 2</p>
+            <p class="secondary_text" style="color:#777;">Have created a Basic Daily Journal using Html,
+              CSS,Javascript and Bootsrap for frontend and used Nodejs,Express and MongoDB server for backend
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-container">
+            <div class="composition">
+              <a href="#imagem4"><img src="../images/diary1.png" alt="graphics1"
+                  class="composition__photo composition__photo--p1"></a>
+              <a href="#imagem5"><img src="../images/diary2.png" alt="graphics2"
+                  class="composition__photo composition__photo--p2"></a>
+              <a href="#imagem6"><img src="../images/diary3.png" alt="graphics3"
+                  class="composition__photo composition__photo--p3"></a>
+            </div>
+
+
+            <!-- Slider -->
+            <div id="slider">
+              <div class="slides">
+                <div class="slider">
+
+
+                  <div class="image"> <a href="#imagem4"><img src="../images/diary1.png"></a></div>
+                </div>
+                <div class="slider">
+
+
+                  <div class="image"><a href="#imagem5"><img src="../images/diary2.png"></a></div>
+                </div>
+                <div class="slider">
+
+
+                  <div class="image"><a href="#imagem6"><img src="../images/diary3.png"></a></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Lightboxes em separado -->
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem4">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/diary1.png" alt="diary1">
+                </div>
+              </div>
+            </div>
+
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem5">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/diary2.png" alt="diary1">
+                </div>
+              </div>
+            </div>
+
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem6">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/diary2.png" alt="diary1">
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="down container">
+        <div class="left">
+          <div class="left-container">
+            <h1 class="primary_text">Meez General Trading Ltd<a href="https://www.meezgt.com/" target="blank">&nbsp;</a></h1>
+            <p class="secondary_text">Poject 3</p>
+            <p class="secondary_text" style="color:#777;">Product: A Trading Company's Website.,
+              Created the product inserting engine from scratch using the React framework
+              cordinated with lead team .<br>
+            </p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right-container">
+            <div class="composition">
+              <a href="#imagem7"><img src="../images/meez1.png" alt="graphics1"
+                  class="composition__photo composition__photo--p1"></a>
+              <a href="#imagem8"><img src="../images/meez2.png" alt="graphics2"
+                  class="composition__photo composition__photo--p2"></a>
+              <a href="#imagem9"><img src="../images/meez3.png" alt="graphics3"
+                  class="composition__photo composition__photo--p3"></a>
+            </div>
+
+
+
+            <!-- Slider -->
+            <div id="slider">
+              <div class="slides">
+                <div class="slider">
+
+
+                  <div class="image"> <a href="#imagem7"><img src="../images/meez1.png"></a></div>
+                </div>
+                <div class="slider">
+
+
+                  <div class="image"><a href="#imagem8"><img src="../images/meez2.png"></a></div>
+                </div>
+                <div class="slider">
+
+
+                  <div class="image"><a href="#imagem9"><img src="../images/meez3.png"></a></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Lightboxes em separado -->
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem7">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/meez1.png" alt="meez1">
+                </div>
+              </div>
+            </div>
+
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem8">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/meez2.png" alt="meez2">
+                </div>
+              </div>
+            </div>
+
+            <div class="lightboxes">
+              <div class="lightbox" id="imagem9">
+                <a href="#" class="fechar">&times;</a>
+                <div class="conteudo">
+                  <img src="../images/meez3.png" alt="meez3">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!----------Footer----------->
+
+        <div class="footer">
+          <div class="grid-container">
+            <div>
+              <p class="copy">© 2021 by Devaprasd N M.</p>
+            </div>
+            <div>
+              <h4 class="footerh">Call</h4>
+              <a href="tel:7306290566" class="footerp">7306290566</a>
+            </div>
+            <div>
+              <h4 class="footerh">Write</h4>
+              <a href="mailto:devaprasdmohan@gmail.com" class="footerp">info@me</a>
+            </div>
+            <div>
+              <h4 class="footerh">Follow</h4>
+              <a href="https://github.com/devaprasadnm" target="_blank"><img class="footlogo" src="../images/github.png"
+                  alt="git" width=50px" height="50px"></a>
+              <a href="https://www.instagram.com/devaprasadmohanan/" target="_blank"><img class="footlogo"
+                  src="../images/instagram.png" alt=""></a>
+              <a href="https://www.linkedin.com/in/devaprasad-n-m-3a6b15197/" target="_blank"><img class="footlogo"
+                  src="../images/linkedin.png" alt=""></a>
+              <a href="https://twitter.com/n_devaprasad" target="_blank"><img class="footlogo"
+                  src="../images/twitter.png" alt=""></a>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+</body>
+
+</html>
