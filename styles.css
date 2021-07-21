@@ -540,4 +540,7 @@ li .Headname:hover:not(.active) {
   .left {
     height: 80%;
   }
+  .landing{
+    height: 150vh;
+  }
 }
