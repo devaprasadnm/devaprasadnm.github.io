@@ -1098,7 +1098,7 @@ footer {
 
 @media only screen and (max-width: 390px){
   .container{
-    height: 82vh;
+    height: 70vh;
   }
   .right-container{
     margin-top: 15%;
